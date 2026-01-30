@@ -1,0 +1,97 @@
+/* Eater Card - Figma: Shadow Content, rounded corners */
+.card {
+  border-radius: var(--eater-radius-medium);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.elevated {
+  background-color: var(--eater-page-white);
+  box-shadow: var(--eater-shadow-content);
+}
+
+.outlined {
+  background-color: var(--eater-page-white);
+  border: 1px solid var(--eater-stroke-weak);
+}
+
+.filled {
+  background-color: var(--eater-page-grey);
+}
+
+.padding_none {
+  padding: 0;
+}
+
+.padding_small {
+  padding: var(--eater-spacing-2);
+}
+
+.padding_medium {
+  padding: var(--eater-spacing-3);
+}
+
+.padding_large {
+  padding: var(--eater-spacing-4);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--eater-spacing-3);
+}
+
+.headerText {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--eater-font-inter);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--eater-text-1);
+}
+
+.subtitle {
+  font-family: var(--eater-font-inter);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--eater-text-2);
+  margin-top: var(--eater-spacing-1);
+}
+
+.action {
+  flex-shrink: 0;
+}
+
+.media {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-color: var(--eater-shape-weak);
+  overflow: hidden;
+}
+
+.mediaImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  font-family: var(--eater-font-inter);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--eater-text-2);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--eater-spacing-2);
+  margin-top: var(--eater-spacing-3);
+}

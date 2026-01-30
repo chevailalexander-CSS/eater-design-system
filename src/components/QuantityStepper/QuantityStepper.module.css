@@ -1,0 +1,51 @@
+/* Eater Quantity Stepper - Figma: minus, value, plus in rounded shapes */
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  border-radius: var(--eater-radius-round);
+  background-color: var(--eater-shape-weak);
+  padding: var(--eater-spacing-1);
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--eater-font-inter);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--eater-text-1);
+  background-color: var(--eater-shape-white);
+  border: none;
+  border-radius: var(--eater-radius-small);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  box-shadow: var(--eater-shadow-content);
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--eater-shape-weak);
+}
+
+.button:active:not(:disabled) {
+  background-color: var(--eater-shape-medium);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.value {
+  min-width: 32px;
+  text-align: center;
+  font-family: var(--eater-font-inter);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--eater-text-1);
+}

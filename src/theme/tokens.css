@@ -1,0 +1,59 @@
+/**
+ * Eater Design System - CSS custom properties (design tokens)
+ * Use these in your app for consistency with Figma.
+ */
+:root {
+  /* Colors - Text */
+  --eater-text-1: #000000;
+  --eater-text-2: #000000cc;
+  --eater-text-3: #000000a6;
+  --eater-text-4: #0000007a;
+  --eater-text-primary: #ff4e2b;
+  --eater-text-inverse: #ffffff;
+  --eater-text-neutral: #3d3d3d;
+  --eater-text-standard: #6c6c6c;
+  --eater-text-light: #817d77;
+
+  /* Colors - Shape */
+  --eater-shape-primary: #ff4e2b;
+  --eater-shape-primary-weak: #fae9e7;
+  --eater-shape-weak: #0000000f;
+  --eater-shape-medium: #0000001f;
+  --eater-shape-white: #ffffff;
+
+  /* Colors - Page */
+  --eater-page-white: #ffffff;
+  --eater-page-grey: #f2f2f2;
+
+  /* Colors - Stroke */
+  --eater-stroke-weak: #00000014;
+  --eater-stroke-medium: #00000029;
+
+  /* Colors - Backdrop */
+  --eater-backdrop-strong: #00000080;
+
+  /* Spacing */
+  --eater-spacing-0: 0;
+  --eater-spacing-1: 4px;
+  --eater-spacing-2: 8px;
+  --eater-spacing-3: 12px;
+  --eater-spacing-4: 16px;
+  --eater-spacing-5: 16px;
+  --eater-spacing-xs: 16px;
+  --eater-container-small: 16px;
+
+  /* Radius */
+  --eater-radius-none: 0;
+  --eater-radius-small: 6px;
+  --eater-radius-medium: 8px;
+  --eater-radius-large: 12px;
+  --eater-radius-round: 999px;
+
+  /* Typography - font families */
+  --eater-font-bayon: "Bayon", sans-serif;
+  --eater-font-inter: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Shadows */
+  --eater-shadow-content: 0 2px 8px 0 rgba(0, 0, 0, 0.06);
+  --eater-shadow-glass: 0 4px 32px 0 rgba(0, 0, 0, 0.2);
+}
